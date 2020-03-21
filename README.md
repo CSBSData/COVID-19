@@ -62,7 +62,15 @@ The CSBS Structured COVID-19 file contains the following fields:
 
 12. Last Update
     
-    1.  Date and time of last update to the data. Currently
+    1.  Date and time of last update to the data. 
+    
+ 13. Confirmed cases adjusted for population 
+    
+     1. Confirmed cases adjusted for population = 1000 x [confirmed cases] / [county population]
+    
+ 14. Population Estimate 2018 (Ths.)
+ 
+     1. County population estimate provided by US Census Bureau; Population Estimates: Group quarters population
 
 When using the CSBS Structured dataset made available on this site,
 please provide some form of attribution to CSBS. The source\[s\],
@@ -119,6 +127,7 @@ dataset are outlined below.
     
       - Number of new cases this week (resets Sunday at midnight of each
         week)
+      - Confirmed cases adjusted for population: 1000 x [confirmed cases] / [county population]
 
 The Conference of State Bank Supervisors (CSBS) is providing the data in
 the CSBSData Github “as is” with no warranties of any kind and CSBS
